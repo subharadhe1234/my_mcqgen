@@ -3,27 +3,38 @@ import json
 import pandas as pd
 import traceback
 import PyPDF2
+from src.mcqgenerator.logger import logging
 
 def read_file(file):
     if file.name.endswith('.pdf'):
+        logging.info(file.name.endswith(".pdf"))
+        
         try:
             pdf_reader=PyPDF2.PdfFileReader(file)
+            logging.info(pdf_reader)
             text=''
             for page in pdf_reader.pages:
                 text+=page.extract_text
+                logging.info(text)
                 return text
         except Exception as e:
+            logging.info(e)
             raise Exception('error reading the PDF file ')
-    elif file.name.endswith('.text'):
+    elif file.name.endswith('.txt'):
+        logging.info(file.name.endswith('.txt'))
+        logging.info(file.read().decode('utf-8'))
         return file.read().decode('utf-8')
     else :
+        logging.info('unsupported file formate only pdf and text file supported')
         raise Exception('unsupported file formate only pdf and text file supported')
 
 def get_table_data(quiz_str):
+    logging.info(quiz_str)
     try:
         quiz_dict=json.loads(quiz_str)
+        logging.info(quiz_dict)
         quiz_table_data = []
-        for key, value in quiz_str.items():
+        for key, value in quiz_dict.items():
             mcq = value["mcq"]
             options = " | ".join(
                 [
