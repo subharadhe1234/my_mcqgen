@@ -1,0 +1,348 @@
+[2024-03-22 03:45:46,705] 19 root - INFO - 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
+[2024-03-22 03:45:48,014] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E1345310> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1354BD0> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 03:45:48,014] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E1345310>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1354BD0>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 03:47:52,235] 19 root - INFO - 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
+[2024-03-22 03:47:52,710] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E1074C90> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E13ED790> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 03:47:52,710] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E1074C90>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E13ED790>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 03:58:34,290] 19 root - INFO - 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
+[2024-03-22 03:58:34,810] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EEDD0> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E182E910> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 03:58:34,810] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EEDD0>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E182E910>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 03:58:56,232] 10 root - INFO - The-Rocking-Horse-Winner.pdf
+[2024-03-22 04:00:00,738] 19 root - INFO - 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
+[2024-03-22 04:00:01,193] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EF190> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E182F550> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:00:01,193] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EF190>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E182F550>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:00:01,193] 10 root - INFO - True
+[2024-03-22 04:01:35,818] 19 root - INFO - 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
+[2024-03-22 04:01:36,277] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EDB90> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E129CA90> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:01:36,277] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EDB90>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E129CA90>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:01:36,277] 10 root - INFO - True
+[2024-03-22 04:02:20,446] 19 root - INFO - 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
+[2024-03-22 04:02:20,897] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13AAD50> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E10776D0> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:02:20,897] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13AAD50>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E10776D0>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:02:20,897] 10 root - INFO - True
+[2024-03-22 04:03:10,305] 19 root - INFO - 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
+[2024-03-22 04:03:10,782] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13ED690> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E18803D0> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:03:10,782] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13ED690>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E18803D0>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:03:10,790] 10 root - INFO - True
+[2024-03-22 04:03:10,790] 20 root - INFO - text
+[2024-03-22 04:04:15,816] 19 root - INFO - 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
+[2024-03-22 04:04:16,275] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E182CB90> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1880710> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:04:16,275] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E182CB90>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1880710>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:04:16,279] 10 root - INFO - True
+[2024-03-22 04:04:16,279] 21 root - INFO - text
+[2024-03-22 04:05:04,426] 19 root - INFO - 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
+[2024-03-22 04:05:04,888] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E1312810> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1881290> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:05:04,888] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E1312810>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1881290>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:05:04,891] 10 root - INFO - True
+[2024-03-22 04:05:04,891] 21 root - INFO - PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+[2024-03-22 04:13:04,915] 19 root - INFO - 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
+[2024-03-22 04:13:05,423] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13A9250> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1882110> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:13:05,424] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13A9250>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1882110>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:13:05,425] 28 root - INFO - unsupported file formate only pdf and text file supported
+[2024-03-22 04:15:30,029] 19 root - INFO - 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
+[2024-03-22 04:15:30,489] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E133B890> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1881590> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:15:30,490] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E133B890>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1881590>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:15:30,493] 24 root - INFO - True
+[2024-03-22 04:15:30,494] 25 root - INFO - The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence.[9][10] The synonym self-teaching computers was also used in this time period.[11][12]
+
+Although the earliest machine learning model was introduced in the 1950s when Arthur Samuel invented a program that calculated the winning chance in checkers for each side, the history of machine learning roots back to decades of human desire and effort to study human cognitive processes.[13] In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells.[14] Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data.[13] Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.[13]
+
+By the early 1960s an experimental "learning machine" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively "trained" by a human operator/teacher to recognize patterns and equipped with a "goof" button to cause it to re-evaluate incorrect decisions.[15] A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification.[16] Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973.[17] In 1981 a report was given on using teaching strategies so that an artificial neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.[18]
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."[19] This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper "Computing Machinery and Intelligence", in which the question "Can machines think?" is replaced with the question "Can machines do what we (as thinking entities) can do?".[20]
+
+Modern-day machine learning has two objectives. One is to classify data based on models which have been developed; the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform the trader of future potential predictions.[21]
+[2024-03-22 04:19:33,867] 19 root - INFO - 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
+[2024-03-22 04:19:34,327] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E182F2D0> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1880790> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:19:34,327] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E182F2D0>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E1880790>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:19:34,343] 24 root - INFO - True
+[2024-03-22 04:19:34,343] 25 root - INFO - The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence.[9][10] The synonym self-teaching computers was also used in this time period.[11][12]
+
+Although the earliest machine learning model was introduced in the 1950s when Arthur Samuel invented a program that calculated the winning chance in checkers for each side, the history of machine learning roots back to decades of human desire and effort to study human cognitive processes.[13] In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells.[14] Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data.[13] Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.[13]
+
+By the early 1960s an experimental "learning machine" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively "trained" by a human operator/teacher to recognize patterns and equipped with a "goof" button to cause it to re-evaluate incorrect decisions.[15] A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification.[16] Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973.[17] In 1981 a report was given on using teaching strategies so that an artificial neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.[18]
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."[19] This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper "Computing Machinery and Intelligence", in which the question "Can machines think?" is replaced with the question "Can machines do what we (as thinking entities) can do?".[20]
+
+Modern-day machine learning has two objectives. One is to classify data based on models which have been developed; the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform the trader of future potential predictions.[21]
+[2024-03-22 04:19:39,736] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:19:40,863] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:25:05,965] 19 root - INFO - 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
+[2024-03-22 04:25:06,502] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EEF90> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E0DF4890> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:25:06,502] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E13EEF90>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E0DF4890>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:25:06,517] 24 root - INFO - True
+[2024-03-22 04:25:06,518] 25 root - INFO - The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence.[9][10] The synonym self-teaching computers was also used in this time period.[11][12]
+
+Although the earliest machine learning model was introduced in the 1950s when Arthur Samuel invented a program that calculated the winning chance in checkers for each side, the history of machine learning roots back to decades of human desire and effort to study human cognitive processes.[13] In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells.[14] Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data.[13] Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.[13]
+
+By the early 1960s an experimental "learning machine" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively "trained" by a human operator/teacher to recognize patterns and equipped with a "goof" button to cause it to re-evaluate incorrect decisions.[15] A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification.[16] Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973.[17] In 1981 a report was given on using teaching strategies so that an artificial neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.[18]
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."[19] This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper "Computing Machinery and Intelligence", in which the question "Can machines think?" is replaced with the question "Can machines do what we (as thinking entities) can do?".[20]
+
+Modern-day machine learning has two objectives. One is to classify data based on models which have been developed; the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform the trader of future potential predictions.[21]
+[2024-03-22 04:25:16,196] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:25:17,740] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:25:17,740] 56 root - INFO - False
+[2024-03-22 04:26:50,459] 19 root - INFO - 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
+[2024-03-22 04:26:50,936] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E1833F90> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E19B6F10> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:26:50,936] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E1833F90>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E19B6F10>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:26:50,936] 24 root - INFO - True
+[2024-03-22 04:26:50,936] 25 root - INFO - The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence.[9][10] The synonym self-teaching computers was also used in this time period.[11][12]
+
+Although the earliest machine learning model was introduced in the 1950s when Arthur Samuel invented a program that calculated the winning chance in checkers for each side, the history of machine learning roots back to decades of human desire and effort to study human cognitive processes.[13] In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells.[14] Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data.[13] Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.[13]
+
+By the early 1960s an experimental "learning machine" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively "trained" by a human operator/teacher to recognize patterns and equipped with a "goof" button to cause it to re-evaluate incorrect decisions.[15] A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification.[16] Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973.[17] In 1981 a report was given on using teaching strategies so that an artificial neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.[18]
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."[19] This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper "Computing Machinery and Intelligence", in which the question "Can machines think?" is replaced with the question "Can machines do what we (as thinking entities) can do?".[20]
+
+Modern-day machine learning has two objectives. One is to classify data based on models which have been developed; the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform the trader of future potential predictions.[21]
+[2024-03-22 04:26:57,840] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:26:59,389] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:26:59,392] 56 root - INFO - False
+[2024-03-22 04:30:59,553] 19 root - INFO - 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
+[2024-03-22 04:31:00,017] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E1173150> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E182C710> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:31:00,017] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E1173150>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E182C710>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:31:00,017] 24 root - INFO - True
+[2024-03-22 04:31:00,017] 25 root - INFO - The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence.[9][10] The synonym self-teaching computers was also used in this time period.[11][12]
+
+Although the earliest machine learning model was introduced in the 1950s when Arthur Samuel invented a program that calculated the winning chance in checkers for each side, the history of machine learning roots back to decades of human desire and effort to study human cognitive processes.[13] In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells.[14] Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data.[13] Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.[13]
+
+By the early 1960s an experimental "learning machine" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively "trained" by a human operator/teacher to recognize patterns and equipped with a "goof" button to cause it to re-evaluate incorrect decisions.[15] A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification.[16] Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973.[17] In 1981 a report was given on using teaching strategies so that an artificial neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.[18]
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."[19] This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper "Computing Machinery and Intelligence", in which the question "Can machines think?" is replaced with the question "Can machines do what we (as thinking entities) can do?".[20]
+
+Modern-day machine learning has two objectives. One is to classify data based on models which have been developed; the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform the trader of future potential predictions.[21]
+[2024-03-22 04:31:06,077] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:31:07,563] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:31:07,577] 54 root - INFO - {
+    "1": {
+        "mcq": "What is the job of an expert MCQ maker?",
+        "options": {
+            "a": "Making sandwiches",
+            "b": "Creating multiple choice questions",
+            "c": "Building houses",
+            "d": "Selling cars"
+        },
+        "correct": "b"
+    },
+    "2": {
+        "mcq": "What is the tone in which the questions should be created for simple students?",
+        "options": {
+            "a": "Soft",
+            "b": "Hard",
+            "c": "Loud",
+            "d": "Funny"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "mcq": "How many questions should be in the quiz?",
+        "options": {
+            "a": "3",
+            "b": "5",
+            "c": "10",
+            "d": "15"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "mcq": "What should be checked to ensure the questions are not repeated?",
+        "options": {
+            "a": "Grammar",
+            "b": "Spelling",
+            "c": "Relevance to text",
+            "d": "Color"
+        },
+        "correct": "c"
+    },
+    "5": {
+        "mcq": "What is the main job of an expert MCQ maker?",
+        "options": {
+            "a": "Cooking",
+            "b": "Singing",
+            "c": "Creating quizzes",
+            "d": "Dancing"
+        },
+        "correct": "c"
+    }
+}
+[2024-03-22 04:31:07,577] 32 root - INFO - {
+    "1": {
+        "mcq": "What is the job of an expert MCQ maker?",
+        "options": {
+            "a": "Making sandwiches",
+            "b": "Creating multiple choice questions",
+            "c": "Building houses",
+            "d": "Selling cars"
+        },
+        "correct": "b"
+    },
+    "2": {
+        "mcq": "What is the tone in which the questions should be created for simple students?",
+        "options": {
+            "a": "Soft",
+            "b": "Hard",
+            "c": "Loud",
+            "d": "Funny"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "mcq": "How many questions should be in the quiz?",
+        "options": {
+            "a": "3",
+            "b": "5",
+            "c": "10",
+            "d": "15"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "mcq": "What should be checked to ensure the questions are not repeated?",
+        "options": {
+            "a": "Grammar",
+            "b": "Spelling",
+            "c": "Relevance to text",
+            "d": "Color"
+        },
+        "correct": "c"
+    },
+    "5": {
+        "mcq": "What is the main job of an expert MCQ maker?",
+        "options": {
+            "a": "Cooking",
+            "b": "Singing",
+            "c": "Creating quizzes",
+            "d": "Dancing"
+        },
+        "correct": "c"
+    }
+}
+[2024-03-22 04:31:07,579] 57 root - INFO - False
+[2024-03-22 04:35:17,403] 19 root - INFO - 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
+[2024-03-22 04:35:17,858] 21 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x000001F9E1883610> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E180C190> temperature=0.5 openai_api_key='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' openai_proxy=''
+[2024-03-22 04:35:17,858] 38 root - INFO - verbose=True prompt=PromptTemplate(input_variables=['number', 'response_json', 'subject', 'text', 'tone'], template='\nText:{text}\nYou are an expert MCQ maker. Given the above text, it is your job to create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. \nMake sure the questions are not repeated and check all the questions to be conforming the text as well.\nMake sure to format your response like  RESPONSE_JSON below  and use it as a guide. Ensure to make {number} MCQs\n### RESPONSE_JSON\n{response_json}\n\n') llm=ChatOpenAI(client=<openai.resources.chat.completions.Completions object at 0x000001F9E1883610>, async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x000001F9E180C190>, temperature=0.5, openai_api_key='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', openai_proxy='') output_key='quiz'
+[2024-03-22 04:35:17,858] 24 root - INFO - True
+[2024-03-22 04:35:17,858] 25 root - INFO - The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence.[9][10] The synonym self-teaching computers was also used in this time period.[11][12]
+
+Although the earliest machine learning model was introduced in the 1950s when Arthur Samuel invented a program that calculated the winning chance in checkers for each side, the history of machine learning roots back to decades of human desire and effort to study human cognitive processes.[13] In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells.[14] Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data.[13] Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.[13]
+
+By the early 1960s an experimental "learning machine" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively "trained" by a human operator/teacher to recognize patterns and equipped with a "goof" button to cause it to re-evaluate incorrect decisions.[15] A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification.[16] Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973.[17] In 1981 a report was given on using teaching strategies so that an artificial neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.[18]
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."[19] This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper "Computing Machinery and Intelligence", in which the question "Can machines think?" is replaced with the question "Can machines do what we (as thinking entities) can do?".[20]
+
+Modern-day machine learning has two objectives. One is to classify data based on models which have been developed; the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform the trader of future potential predictions.[21]
+[2024-03-22 04:35:29,732] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:35:31,651] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-22 04:35:31,656] 54 root - INFO - {
+    "1": {
+        "mcq": "What is the job of an expert MCQ maker?",
+        "options": {
+            "a": "Creating multiple choice questions for simple students",
+            "b": "Cooking recipes",
+            "c": "Building houses",
+            "d": "Selling cars"
+        },
+        "correct": "a"
+    },
+    "2": {
+        "mcq": "What is the tone of the quiz for simple students?",
+        "options": {
+            "a": "Soft",
+            "b": "Hard",
+            "c": "Medium",
+            "d": "Loud"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "mcq": "How many questions should be in the quiz?",
+        "options": {
+            "a": "2",
+            "b": "5",
+            "c": "10",
+            "d": "15"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "mcq": "What should be checked to ensure the questions are not repeated?",
+        "options": {
+            "a": "Spelling errors",
+            "b": "Conforming the text",
+            "c": "Adding more questions",
+            "d": "Ignoring the errors"
+        },
+        "correct": "b"
+    },
+    "5": {
+        "mcq": "What is the main job of an MCQ maker?",
+        "options": {
+            "a": "Selling cars",
+            "b": "Building houses",
+            "c": "Creating quizzes",
+            "d": "Cooking recipes"
+        },
+        "correct": "c"
+    }
+}
+[2024-03-22 04:35:31,656] 32 root - INFO - {
+    "1": {
+        "mcq": "What is the job of an expert MCQ maker?",
+        "options": {
+            "a": "Creating multiple choice questions for simple students",
+            "b": "Cooking recipes",
+            "c": "Building houses",
+            "d": "Selling cars"
+        },
+        "correct": "a"
+    },
+    "2": {
+        "mcq": "What is the tone of the quiz for simple students?",
+        "options": {
+            "a": "Soft",
+            "b": "Hard",
+            "c": "Medium",
+            "d": "Loud"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "mcq": "How many questions should be in the quiz?",
+        "options": {
+            "a": "2",
+            "b": "5",
+            "c": "10",
+            "d": "15"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "mcq": "What should be checked to ensure the questions are not repeated?",
+        "options": {
+            "a": "Spelling errors",
+            "b": "Conforming the text",
+            "c": "Adding more questions",
+            "d": "Ignoring the errors"
+        },
+        "correct": "b"
+    },
+    "5": {
+        "mcq": "What is the main job of an MCQ maker?",
+        "options": {
+            "a": "Selling cars",
+            "b": "Building houses",
+            "c": "Creating quizzes",
+            "d": "Cooking recipes"
+        },
+        "correct": "c"
+    }
+}
+[2024-03-22 04:35:31,656] 35 root - INFO - {'1': {'mcq': 'What is the job of an expert MCQ maker?', 'options': {'a': 'Creating multiple choice questions for simple students', 'b': 'Cooking recipes', 'c': 'Building houses', 'd': 'Selling cars'}, 'correct': 'a'}, '2': {'mcq': 'What is the tone of the quiz for simple students?', 'options': {'a': 'Soft', 'b': 'Hard', 'c': 'Medium', 'd': 'Loud'}, 'correct': 'b'}, '3': {'mcq': 'How many questions should be in the quiz?', 'options': {'a': '2', 'b': '5', 'c': '10', 'd': '15'}, 'correct': 'b'}, '4': {'mcq': 'What should be checked to ensure the questions are not repeated?', 'options': {'a': 'Spelling errors', 'b': 'Conforming the text', 'c': 'Adding more questions', 'd': 'Ignoring the errors'}, 'correct': 'b'}, '5': {'mcq': 'What is the main job of an MCQ maker?', 'options': {'a': 'Selling cars', 'b': 'Building houses', 'c': 'Creating quizzes', 'd': 'Cooking recipes'}, 'correct': 'c'}}
+[2024-03-22 04:35:31,656] 57 root - INFO - [{'MCQ': 'What is the job of an expert MCQ maker?', 'Choices': 'a: Creating multiple choice questions for simple students | b: Cooking recipes | c: Building houses | d: Selling cars', 'Correct': 'ans: a'}, {'MCQ': 'What is the tone of the quiz for simple students?', 'Choices': 'a: Soft | b: Hard | c: Medium | d: Loud', 'Correct': 'ans: b'}, {'MCQ': 'How many questions should be in the quiz?', 'Choices': 'a: 2 | b: 5 | c: 10 | d: 15', 'Correct': 'ans: b'}, {'MCQ': 'What should be checked to ensure the questions are not repeated?', 'Choices': 'a: Spelling errors | b: Conforming the text | c: Adding more questions | d: Ignoring the errors', 'Correct': 'ans: b'}, {'MCQ': 'What is the main job of an MCQ maker?', 'Choices': 'a: Selling cars | b: Building houses | c: Creating quizzes | d: Cooking recipes', 'Correct': 'ans: c'}]
+[2024-03-22 04:35:31,669] 59 root - INFO -                                                  MCQ                                            Choices Correct
+0            What is the job of an expert MCQ maker?  a: Creating multiple choice questions for simp...  ans: a
+1  What is the tone of the quiz for simple students?            a: Soft | b: Hard | c: Medium | d: Loud  ans: b
+2          How many questions should be in the quiz?                        a: 2 | b: 5 | c: 10 | d: 15  ans: b
+3  What should be checked to ensure the questions...  a: Spelling errors | b: Conforming the text | ...  ans: b
+4              What is the main job of an MCQ maker?  a: Selling cars | b: Building houses | c: Crea...  ans: c

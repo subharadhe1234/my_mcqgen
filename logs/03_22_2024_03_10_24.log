@@ -1,0 +1,2 @@
+[2024-03-22 03:10:25,128] 18 root - INFO - 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
+[2024-03-22 03:10:26,345] 20 root - INFO - client=<openai.resources.chat.completions.Completions object at 0x0000018945D23880> async_client=<openai.resources.chat.completions.AsyncCompletions object at 0x0000018945D412A0> temperature=0.5 openai_api_key='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' openai_proxy=''
